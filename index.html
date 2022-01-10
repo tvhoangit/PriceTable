@@ -7,94 +7,275 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
 <body>
 
-    <div class="main grid wide">
-        <div class="tour row">
-            <div class="ocean col l-4 m-6 c-12">
-                <div class="ocean__img-over">
-                    <img class="ocean__img" src="./assets/img/ocean.png" alt="">
-                    <div class="overflow"></div>
-                </div>
-                <p class="ocean__index-of">OCEAN</p>
-                <div class="ocean__text">
-                    <div class="ocean__index">
-                        <p class="ocean__index-subtitle">Subtitle goes here</p>
-                        <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+    <div class="main grid wide slider">
+        <i class="fa fa-angle-left slider-prev"></i>
+        <ul class="slider-dots">
+            <li class="slider-dot-item active" data-index="0"></li>
+            <li class="slider-dot-item" data-index="1"></li>
+            <li class="slider-dot-item" data-index="2"></li>
+        </ul>
+        <div class="slider-wrapper">
+            <div class="slider-main">
+                <div class="tour row slider-items">
+                    <div class="ocean col l-4 m-6 c-12">
+                        <div class="ocean__img-over">
+                            <img class="ocean__img" src="./assets/img/ocean.png" alt="">
+                            <div class="overflow"></div>
+                        </div>
+                        <p class="ocean__index-of">OCEAN</p>
+                        <div class="ocean__text">
+                            <div class="ocean__index">
+                                <p class="ocean__index-subtitle">Subtitle goes here</p>
+                                <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                            </div>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <button class="ocean__btn">BUY TOUR</button>
+                        </div>
+        
+                        <div class="tour__price">
+                            <div class="tour__price-title">
+                                <p class="price">$399</p>
+                                <p class="per__tour">Per tour</p>
+                            </div>
+                        </div>
                     </div>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <button class="ocean__btn">BUY TOUR</button>
-                </div>
-
-                <div class="tour__price">
-                    <div class="tour__price-title">
-                        <p class="price">$399</p>
-                        <p class="per__tour">Per tour</p>
+        
+                    <div class="ocean col l-4 m-6 c-12">
+                        <div class="ocean__img-over">
+                            <img class="ocean__img mountain__img" src="./assets/img/mountain.png" alt="">
+                            <div class="overflow"></div>
+                        </div>
+                        <p class="ocean__index-of">MOUNTAINS</p>
+                        <div class="newmark">NEW</div>
+                        <div class="ocean__text">
+                            <div class="ocean__index">
+                                <p class="ocean__index-subtitle">Subtitle goes here</p>
+                                <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                            </div>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <button class="ocean__btn mountains-btn">BUY TOUR</button>
+                        </div>
+        
+                        <div class="tour__price tour__price-moutains">
+                            <div class="tour__price-title">
+                                <p class="price price-moutains">$499</p>
+                                <p class="per__tour per__tour-mountains">Per tour</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ocean col l-4 m-6 c-12">
+                        <div class="ocean__img-over">
+                            <img class="ocean__img" src="./assets/img/forest.png" alt="">
+                            <div class="overflow"></div>
+                        </div>
+                        <p class="ocean__index-of">FOREST</p>
+                        <div class="ocean__text">
+                            <div class="ocean__index">
+                                <p class="ocean__index-subtitle">Subtitle goes here</p>
+                                <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                            </div>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <button class="ocean__btn forest-btn">BUY TOUR</button>
+                        </div>
+        
+                        <div class="tour__price">
+                            <div class="tour__price-title">
+                                <p class="price price-forest">$599</p>
+                                <p class="per__tour">Per tour</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="ocean col l-4 m-6 c-12">
-                <div class="ocean__img-over">
-                    <img class="ocean__img mountain__img" src="./assets/img/mountain.png" alt="">
-                    <div class="overflow"></div>
-                </div>
-                <p class="ocean__index-of">MOUNTAINS</p>
-                <div class="newmark">NEW</div>
-                <div class="ocean__text">
-                    <div class="ocean__index">
-                        <p class="ocean__index-subtitle">Subtitle goes here</p>
-                        <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                <div class="tour row slider-items">
+                    <div class="ocean col l-4 m-6 c-12">
+                        <div class="ocean__img-over">
+                            <img class="ocean__img" src="./assets/img/react.jpg" alt="">
+                            <div class="overflow"></div>
+                        </div>
+                        <p class="ocean__index-of">OCEAN</p>
+                        <div class="ocean__text">
+                            <div class="ocean__index">
+                                <p class="ocean__index-subtitle">Subtitle goes here</p>
+                                <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                            </div>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <button class="ocean__btn">BUY TOUR</button>
+                        </div>
+        
+                        <div class="tour__price">
+                            <div class="tour__price-title">
+                                <p class="price">$399</p>
+                                <p class="per__tour">Per tour</p>
+                            </div>
+                        </div>
                     </div>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <button class="ocean__btn mountains-btn">BUY TOUR</button>
-                </div>
-
-                <div class="tour__price tour__price-moutains">
-                    <div class="tour__price-title">
-                        <p class="price price-moutains">$499</p>
-                        <p class="per__tour per__tour-mountains">Per tour</p>
+        
+                    <div class="ocean col l-4 m-6 c-12">
+                        <div class="ocean__img-over">
+                            <img class="ocean__img mountain__img" src="./assets/img/mountain.png" alt="">
+                            <div class="overflow"></div>
+                        </div>
+                        <p class="ocean__index-of">MOUNTAINS</p>
+                        <div class="newmark">NEW</div>
+                        <div class="ocean__text">
+                            <div class="ocean__index">
+                                <p class="ocean__index-subtitle">Subtitle goes here</p>
+                                <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                            </div>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <button class="ocean__btn mountains-btn">BUY TOUR</button>
+                        </div>
+        
+                        <div class="tour__price tour__price-moutains">
+                            <div class="tour__price-title">
+                                <p class="price price-moutains">$499</p>
+                                <p class="per__tour per__tour-mountains">Per tour</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ocean col l-4 m-6 c-12">
+                        <div class="ocean__img-over">
+                            <img class="ocean__img" src="./assets/img/forest.png" alt="">
+                            <div class="overflow"></div>
+                        </div>
+                        <p class="ocean__index-of">FOREST</p>
+                        <div class="ocean__text">
+                            <div class="ocean__index">
+                                <p class="ocean__index-subtitle">Subtitle goes here</p>
+                                <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                            </div>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <button class="ocean__btn forest-btn">BUY TOUR</button>
+                        </div>
+        
+                        <div class="tour__price">
+                            <div class="tour__price-title">
+                                <p class="price price-forest">$599</p>
+                                <p class="per__tour">Per tour</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="ocean col l-4 m-6 c-12">
-                <div class="ocean__img-over">
-                    <img class="ocean__img" src="./assets/img/forest.png" alt="">
-                    <div class="overflow"></div>
-                </div>
-                <p class="ocean__index-of">FOREST</p>
-                <div class="ocean__text">
-                    <div class="ocean__index">
-                        <p class="ocean__index-subtitle">Subtitle goes here</p>
-                        <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                <div class="tour row slider-items">
+                    <div class="ocean col l-4 m-6 c-12">
+                        <div class="ocean__img-over">
+                            <img class="ocean__img" src="./assets/img/ocean.png" alt="">
+                            <div class="overflow"></div>
+                        </div>
+                        <p class="ocean__index-of">OCEAN</p>
+                        <div class="ocean__text">
+                            <div class="ocean__index">
+                                <p class="ocean__index-subtitle">Subtitle goes here</p>
+                                <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                            </div>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <button class="ocean__btn">BUY TOUR</button>
+                        </div>
+        
+                        <div class="tour__price">
+                            <div class="tour__price-title">
+                                <p class="price">$399</p>
+                                <p class="per__tour">Per tour</p>
+                            </div>
+                        </div>
                     </div>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <p class="ocean__info">Drop out ramen hustle</p>
-                    <button class="ocean__btn forest-btn">BUY TOUR</button>
-                </div>
-
-                <div class="tour__price">
-                    <div class="tour__price-title">
-                        <p class="price price-forest">$599</p>
-                        <p class="per__tour">Per tour</p>
+        
+                    <div class="ocean col l-4 m-6 c-12">
+                        <div class="ocean__img-over">
+                            <img class="ocean__img mountain__img" src="./assets/img/react.jpg" alt="">
+                            <div class="overflow"></div>
+                        </div>
+                        <p class="ocean__index-of">MOUNTAINS</p>
+                        <div class="newmark">NEW</div>
+                        <div class="ocean__text">
+                            <div class="ocean__index">
+                                <p class="ocean__index-subtitle">Subtitle goes here</p>
+                                <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                            </div>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <button class="ocean__btn mountains-btn">BUY TOUR</button>
+                        </div>
+        
+                        <div class="tour__price tour__price-moutains">
+                            <div class="tour__price-title">
+                                <p class="price price-moutains">$499</p>
+                                <p class="per__tour per__tour-mountains">Per tour</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ocean col l-4 m-6 c-12">
+                        <div class="ocean__img-over">
+                            <img class="ocean__img" src="./assets/img/forest.png" alt="">
+                            <div class="overflow"></div>
+                        </div>
+                        <p class="ocean__index-of">FOREST</p>
+                        <div class="ocean__text">
+                            <div class="ocean__index">
+                                <p class="ocean__index-subtitle">Subtitle goes here</p>
+                                <p class="ocean__index-title">Subtitle second line goes here lorem ipsum</p>
+                            </div>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <p class="ocean__info">Drop out ramen hustle</p>
+                            <button class="ocean__btn forest-btn">BUY TOUR</button>
+                        </div>
+        
+                        <div class="tour__price">
+                            <div class="tour__price-title">
+                                <p class="price price-forest">$599</p>
+                                <p class="per__tour">Per tour</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        
+        <i class="fa fa-angle-right slider-next"></i>
     </div>
     
+
+    <script src="./assets/css/main.js"></script>
 </body>
 </html>
